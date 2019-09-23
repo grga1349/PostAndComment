@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF8301F0233184D000B04DB6 /* LoginTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8301EF233184D000B04DB6 /* LoginTextInput.swift */; };
+		EF8301F2233676CD00B04DB6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8301F1233676CD00B04DB6 /* LoginView.swift */; };
 		EFA79DA5233167CA00A7E9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DA4233167CA00A7E9C6 /* AppDelegate.swift */; };
-		EFA79DA7233167CA00A7E9C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DA6233167CA00A7E9C6 /* ViewController.swift */; };
-		EFA79DAA233167CA00A7E9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA79DA8233167CA00A7E9C6 /* Main.storyboard */; };
 		EFA79DAD233167CA00A7E9C6 /* PostAndComment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DAB233167CA00A7E9C6 /* PostAndComment.xcdatamodeld */; };
 		EFA79DAF233167CE00A7E9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA79DAE233167CE00A7E9C6 /* Assets.xcassets */; };
 		EFA79DB2233167CE00A7E9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA79DB0233167CE00A7E9C6 /* LaunchScreen.storyboard */; };
 		EFA79DBD233167CE00A7E9C6 /* PostAndCommentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DBC233167CE00A7E9C6 /* PostAndCommentTests.swift */; };
 		EFA79DC8233167CE00A7E9C6 /* PostAndCommentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DC7233167CE00A7E9C6 /* PostAndCommentUITests.swift */; };
+		EFA79DD923316B3D00A7E9C6 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DD823316B3D00A7E9C6 /* AppController.swift */; };
+		EFA79DDB23316B4E00A7E9C6 /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DDA23316B4E00A7E9C6 /* AuthController.swift */; };
+		EFA79DE023316C9600A7E9C6 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA79DDF23316C9600A7E9C6 /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF8301EF233184D000B04DB6 /* LoginTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextInput.swift; sourceTree = "<group>"; };
+		EF8301F1233676CD00B04DB6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		EFA79DA1233167CA00A7E9C6 /* PostAndComment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostAndComment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA79DA4233167CA00A7E9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFA79DA6233167CA00A7E9C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EFA79DA9233167CA00A7E9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA79DAC233167CA00A7E9C6 /* PostAndComment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostAndComment.xcdatamodel; sourceTree = "<group>"; };
 		EFA79DAE233167CE00A7E9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA79DB1233167CE00A7E9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		EFA79DC3233167CE00A7E9C6 /* PostAndCommentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostAndCommentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA79DC7233167CE00A7E9C6 /* PostAndCommentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAndCommentUITests.swift; sourceTree = "<group>"; };
 		EFA79DC9233167CE00A7E9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA79DD823316B3D00A7E9C6 /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		EFA79DDA23316B4E00A7E9C6 /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		EFA79DDF23316C9600A7E9C6 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF8301EC233183AC00B04DB6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF8301EF233184D000B04DB6 /* LoginTextInput.swift */,
+				EF8301F1233676CD00B04DB6 /* LoginView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EFA79D98233167CA00A7E9C6 = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +115,12 @@
 			isa = PBXGroup;
 			children = (
 				EFA79DA4233167CA00A7E9C6 /* AppDelegate.swift */,
-				EFA79DA6233167CA00A7E9C6 /* ViewController.swift */,
-				EFA79DA8233167CA00A7E9C6 /* Main.storyboard */,
 				EFA79DAE233167CE00A7E9C6 /* Assets.xcassets */,
+				EFA79DD523316A6700A7E9C6 /* Controllers */,
 				EFA79DB0233167CE00A7E9C6 /* LaunchScreen.storyboard */,
 				EFA79DB3233167CE00A7E9C6 /* Info.plist */,
+				EF8301EC233183AC00B04DB6 /* Views */,
+				EFA79DDC23316C6200A7E9C6 /* Utils */,
 				EFA79DAB233167CA00A7E9C6 /* PostAndComment.xcdatamodeld */,
 			);
 			path = PostAndComment;
@@ -126,6 +142,23 @@
 				EFA79DC9233167CE00A7E9C6 /* Info.plist */,
 			);
 			path = PostAndCommentUITests;
+			sourceTree = "<group>";
+		};
+		EFA79DD523316A6700A7E9C6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFA79DD823316B3D00A7E9C6 /* AppController.swift */,
+				EFA79DDA23316B4E00A7E9C6 /* AuthController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFA79DDC23316C6200A7E9C6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EFA79DDF23316C9600A7E9C6 /* UIColorExtensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +267,6 @@
 			files = (
 				EFA79DB2233167CE00A7E9C6 /* LaunchScreen.storyboard in Resources */,
 				EFA79DAF233167CE00A7E9C6 /* Assets.xcassets in Resources */,
-				EFA79DAA233167CA00A7E9C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +292,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA79DAD233167CA00A7E9C6 /* PostAndComment.xcdatamodeld in Sources */,
-				EFA79DA7233167CA00A7E9C6 /* ViewController.swift in Sources */,
+				EF8301F2233676CD00B04DB6 /* LoginView.swift in Sources */,
+				EFA79DDB23316B4E00A7E9C6 /* AuthController.swift in Sources */,
+				EFA79DE023316C9600A7E9C6 /* UIColorExtensions.swift in Sources */,
 				EFA79DA5233167CA00A7E9C6 /* AppDelegate.swift in Sources */,
+				EFA79DD923316B3D00A7E9C6 /* AppController.swift in Sources */,
+				EF8301F0233184D000B04DB6 /* LoginTextInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFA79DA8233167CA00A7E9C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFA79DA9233167CA00A7E9C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFA79DB0233167CE00A7E9C6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
